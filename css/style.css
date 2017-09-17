@@ -1,0 +1,60 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300:700';
+
+body {
+	margin: 120px 10px 0px 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #1E2128;
+	color: #9BA2B2;
+}
+
+#city,
+#summary,
+#icon,
+#temperature,
+#detail {
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+
+#city {
+	border-left: 18px solid #E92F38;
+	margin-left: -18px;
+	font-size: 2em;
+}
+
+#summary {
+	border-left: 15px solid #FD812E;
+	margin-left: -15px;
+	font-size: 3em;
+}
+
+#icon {
+	border-left: 12px solid #33C372;
+	margin-left: -12px;
+	font-size: 6em;
+	background-repeat: no-repeat;
+}
+
+#temperature {
+	border-left: 9px solid #1AA4E9;
+	margin-left: -9px;
+	font-family: 'Open Sans Condensed:700', sans-serif;
+	font-size: 4em;
+}
+
+#detail {
+	border-left: 6px solid #5963E6;
+	margin-left: -6px;
+	font-size: 2em;
+}
+
+#credits {
+	border-left: 3px solid blue;
+	margin-left: -3px;
+	padding-left: 10px;
+	font-size: 1em;
+}
+
+#temperature:hover {
+  cursor: pointer;
+}

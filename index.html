@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Local Weather</title>
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<!--
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+	-->
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css'>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-offset-4 col-md-offset-4 col-lg-offset-3">
+				<div id="city">LOADING...</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-offset-4 col-md-offset-4 col-lg-offset-3">
+				<div id="summary"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-offset-4 col-md-offset-4 col-lg-offset-3">
+				<div id="icon"><i></i></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-offset-4 col-md-offset-4 col-lg-offset-3">
+				<div id="temperature" unit="f"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-offset-4 col-md-offset-4 col-lg-offset-3">
+				<div id="detail"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-offset-4 col-md-offset-4 col-lg-offset-3">
+				<div id="credits">
+					Forecast courtesy of <a href="http://forecast.io" target="_blank">forecast.io</a>
+					<br />Click the temperature to change units between &#176F and &#176C
+					<br />Design & code by Tony
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
