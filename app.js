@@ -48,19 +48,19 @@ function getWeatherData(geoData) {
 // properties with '-' must be enclosed with quotes
 function setIcon(condition) {
 	var icons = {
-		"clear-day": ["day-sunny", "https://s19.postimg.org/tnu3pf8f7/clear-day.jpg", "#FFFFFF"],
-		"clear-night": ["night-clear", "https://s19.postimg.org/70euj9sv7/clear-night.jpg", "#FFFFFF"],
-		rain: ["rain", "https://s19.postimg.org/r1j6m86lf/rain.jpg", "#FFFFFF"],
-		snow: ["snow", "https://s19.postimg.org/sj01k1lyb/snow.jpg", "#000000"],
-		sleet: ["sleet", "https://s19.postimg.org/sj01k1lyb/snow.jpg", "#000000"],
-		wind: ["strong-wind", "https://s19.postimg.org/yp1hqsfvn/wind.jpg", "#FFFFFF"],
-		fog: ["fog", "https://s19.postimg.org/og90kyrtv/fog.jpg", "#FFFFFF"],
-		cloudy: ["cloudy", "https://s19.postimg.org/ith918eoz/cloudy-day.jpg", "#FFFFFF"],
-		"partly-cloudy-day": ["day-cloudy", "https://s19.postimg.org/ith918eoz/cloudy-day.jpg", "#FFFFFF"],
-		"partly-cloudy-night": ["night-cloudy", "https://s19.postimg.org/svw13ytlv/cloudy-night.jpg", "#FFFFFF"],
-		hail: ["hail", "https://s19.postimg.org/izqcqkyg3/hail.jpg", "#FFFFFF"],
-		thunderstorm: ["thunderstorm", "https://s19.postimg.org/s2jfbcnkz/thunderstorm.jpg", "#FFFFFF"],
-		tornado: ["tornado", "https://s19.postimg.org/r2t4fn8f7/tornado.jpg", "#FFFFFF"]
+		"clear-day": ["day-sunny", "https://s19.postimg.cc/tnu3pf8f7/clear-day.jpg", "#FFFFFF"],
+		"clear-night": ["night-clear", "https://s19.postimg.cc/70euj9sv7/clear-night.jpg", "#FFFFFF"],
+		rain: ["rain", "https://s19.postimg.cc/r1j6m86lf/rain.jpg", "#FFFFFF"],
+		snow: ["snow", "https://s19.postimg.cc/sj01k1lyb/snow.jpg", "#000000"],
+		sleet: ["sleet", "https://s19.postimg.cc/sj01k1lyb/snow.jpg", "#000000"],
+		wind: ["strong-wind", "https://s19.postimg.cc/yp1hqsfvn/wind.jpg", "#FFFFFF"],
+		fog: ["fog", "https://s19.postimg.cc/og90kyrtv/fog.jpg", "#FFFFFF"],
+		cloudy: ["cloudy", "https://s19.postimg.cc/ith918eoz/cloudy-day.jpg", "#FFFFFF"],
+		"partly-cloudy-day": ["day-cloudy", "https://s19.postimg.cc/ith918eoz/cloudy-day.jpg", "#FFFFFF"],
+		"partly-cloudy-night": ["night-cloudy", "https://s19.postimg.cc/svw13ytlv/cloudy-night.jpg", "#FFFFFF"],
+		hail: ["hail", "https://s19.postimg.cc/izqcqkyg3/hail.jpg", "#FFFFFF"],
+		thunderstorm: ["thunderstorm", "https://s19.postimg.cc/s2jfbcnkz/thunderstorm.jpg", "#FFFFFF"],
+		tornado: ["tornado", "https://s19.postimg.cc/r2t4fn8f7/tornado.jpg", "#FFFFFF"]
 	}
 	$("i").attr('class', "wi wi-" + icons[condition][0]);
   $("#icon").css("background-image", "url(" + icons[condition][1] + ")");
